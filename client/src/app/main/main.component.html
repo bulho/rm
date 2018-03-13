@@ -1,8 +1,16 @@
-<mat-toolbar>
 
-</mat-toolbar>
+<div class="frame" fxLayout="row">
 
-<div class="project-area">
+    <!-- side menu -->
+    <div class="side-menu">
+        <button mat-button fxLayoutAlign="center center" *ngFor="let i of menuItems" [matTooltip]="i.tooltip" matTooltipPosition="right">
+            <mat-icon>{{i.icon}}</mat-icon>
+        </button>
+    </div>
 
+    <!-- application area -->
+    <div class="section">
+        <h1>Hello this is the resources section</h1>
+    </div>
 
 </div>

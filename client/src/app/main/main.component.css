@@ -1,12 +1,20 @@
-
-.project-area{
+.frame{
     background-color: #f5f5f5;
     font-weight: 300;
     font-family: 'Roboto', monospace;
     color: #424242;
-    padding: 5%;
 }
-.project-area h1{
-    font-size: 28px;
-    font-weight: 300;
+.side-menu{
+    background-color: #03A9F4;
+    height: 100vh;
+    width: 50px;
+}
+.side-menu .mat-button{
+    width:50px;
+    min-width: 50px;
+    height: 40px;
+    color: white;
+}
+.section{
+    padding:5%;
 }

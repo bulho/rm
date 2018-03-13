@@ -14,6 +14,12 @@ export class MainComponent implements OnInit {
   ngOnInit() {
   }
 
+  menuItems = [
+    {'icon':'home', 'name':'home', 'link':'home', 'tooltip':'go home'},
+    {'icon':'home', 'name':'home', 'link':'home', 'tooltip':'go home'},
+    {'icon':'home', 'name':'home', 'link':'home', 'tooltip':'go home'},
+    {'icon':'home', 'name':'home', 'link':'home', 'tooltip':'go home'},
+  ]
 
 
 
